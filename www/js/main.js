@@ -103,7 +103,7 @@ var app = {
     this.registerEvents();
     this.store = new MemoryStore(function() {
         // $('body').html(new HomeView(self.store).render().el);
-        self.showAlert('Store Initialized', 'Info');
+        //self.showAlert('Store Initialized', 'Info');
         self.route();
     });
 }
